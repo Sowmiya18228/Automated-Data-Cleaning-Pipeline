@@ -31,8 +31,28 @@ This project automates the data cleaning process, reducing manual effort and imp
 ---
 
 ## 🏗️ Project Workflow
-
-Upload Dataset → Data Profiling → Missing Value Handling → Duplicate Removal → Outlier Detection → Encoding → Quality Assessment → Download Cleaned Dataset
+                                
+                                Dataset Upload
+                                      ↓
+                                Data Profiling
+                                      ↓
+                                Quality Assessment
+                                      ↓
+                                Missing Value Handling
+                                      ↓
+                                Duplicate Removal
+                                      ↓
+                                Outlier Detection
+                                      ↓
+                                Data Encoding
+                                      ↓
+                                Cleaned Dataset Generation
+                                      ↓
+                                Quality Evaluation
+                                      ↓
+                                Visualization & Reporting
+                                      ↓
+                                Download Cleaned Dataset
 
 ---
 
