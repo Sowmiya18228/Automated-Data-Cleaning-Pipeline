@@ -115,14 +115,12 @@ The application provides:
 
 ---
 
-## 🚀 Future Enhancements
+## 🌐 Live Demo
 
-* AI-Based Data Cleaning Recommendations
-* Advanced Feature Engineering
-* Automated Data Validation
-* Interactive Dashboard Analytics
-* Machine Learning Readiness Score
-* PDF Report Generation
+🔗 
+
+
+
 
 ---
 
