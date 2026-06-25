@@ -4,13 +4,6 @@
 
 The Automated Data Cleaning and Preprocessing Pipeline is a Streamlit-based web application that automatically cleans raw datasets and prepares them for data analysis and machine learning tasks. Users can upload CSV or Excel files, analyze data quality, perform automated preprocessing, and download the cleaned dataset.
 
----
-
-## 🎯 Problem Statement
-
-Raw datasets often contain missing values, duplicates, inconsistent data formats, and outliers, which reduce data quality and negatively impact analytics and machine learning models.
-
-This project automates the data cleaning process, reducing manual effort and improving dataset quality.
 
 ---
 
