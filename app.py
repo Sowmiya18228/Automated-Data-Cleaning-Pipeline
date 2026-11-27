@@ -24,7 +24,22 @@ if uploaded_file is not None:
 
     # Load Dataset
     if uploaded_file.name.endswith(".csv"):
-        df = pd.read_csv(uploaded_file)
+        try:
+            uploaded_file.seek(0)
+            df = pd.read_csv(
+                uploaded_file,
+                encoding="utf-8-sig",
+                encoding_errors="replace",
+                dtype_backend="numpy_nullable"
+            )
+
+        except Exception:
+            uploaded_file.seek(0)
+            df = pd.read_csv(
+                uploaded_file,
+                encoding="latin1",
+                dtype_backend="numpy_nullable"
+            )
     else:
         df = pd.read_excel(uploaded_file)
 
